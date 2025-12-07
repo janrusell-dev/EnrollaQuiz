@@ -21,7 +21,7 @@ export function validateGradeRequest(body: unknown): ValidationResult {
   }
 
   if (data.answers.length === 0) {
-    return { valid: false, error: "Answers cannot be empty" };
+    return { valid: false, error: "Answers array cannot be empty" };
   }
 
   for (let i = 0; i < data.answers.length; i++) {

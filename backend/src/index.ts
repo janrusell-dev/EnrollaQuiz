@@ -11,7 +11,7 @@ app.use(
   "/*",
   cors({
     origin: ["http://localhost:3000", "https://*.vercel.app"],
-    allowMethods: ["GET", "POST", "PUT", "DELETE"],
+    allowMethods: ["GET", "POST"],
     allowHeaders: ["Content-Type"],
     credentials: true,
   })
@@ -23,6 +23,10 @@ app.get("/", (c) => {
     status: "healthy",
     version: "1.0.0",
     timestamp: new Date().toISOString(),
+    endpoints: {
+      quiz: "/api/quiz",
+      grade: "/api/grade",
+    },
   });
 });
 
