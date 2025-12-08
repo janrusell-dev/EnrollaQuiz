@@ -157,7 +157,7 @@ This video explains:
 - Frontend data handling
 - Backend API routes
 
-Loom Video: https://www.loom.com/share/aada6a26af2944a5acec4c93ef815551
+Loom Video: [Watch the Loom Walkthrough](https://www.loom.com/share/aada6a26af2944a5acec4c93ef815551)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
