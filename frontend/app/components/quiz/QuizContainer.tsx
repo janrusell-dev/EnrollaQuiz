@@ -28,7 +28,7 @@ export default function QuizContainer() {
     if (loading || result) return;
 
     if (timeLeft === 0) {
-      handleSubmit(); // auto-submit
+      handleSubmit(); 
       return;
     }
 

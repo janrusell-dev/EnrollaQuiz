@@ -10,8 +10,8 @@ app.use("*", logger());
 app.use(
   "/*",
   cors({
-    origin: ["http://localhost:3000", "https://*.vercel.app"],
-    allowMethods: ["GET", "POST"],
+    origin: ["http://localhost:3000", "https://enrolla-quiz.vercel.app"],
+    allowMethods: ["GET", "POST", "OPTIONS"],
     allowHeaders: ["Content-Type"],
     credentials: true,
   })
