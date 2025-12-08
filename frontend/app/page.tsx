@@ -1,9 +1,10 @@
 import Image from "next/image";
+import QuizContainer from "./components/quiz/QuizContainer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen bg-zinc-50 font-sans dark:bg-black">
-      <h1>Enrolla Quiz</h1>
-    </div>
+    <main className="min-h-screen bg-gray-50 py-12 px-4">
+      <QuizContainer />
+    </main>
   );
 }
