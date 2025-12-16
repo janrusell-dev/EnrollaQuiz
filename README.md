@@ -149,16 +149,6 @@ All quiz rendering and submission logic happens on the client side.
 
 **Total: 20 hours**
 
-## Loom Walkthrough
-
-This video explains:
-
-- The overall app flow
-- Frontend data handling
-- Backend API routes
-
-Loom Video: [Watch the Loom Walkthrough](https://www.loom.com/share/aada6a26af2944a5acec4c93ef815551)
-
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
